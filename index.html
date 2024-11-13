@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <text>Методи масивів</text>
+    <h1>Масив - це сукупність даних однакового або різного типу, які можна обробити як одне ціле. Ми можемо змінювати, додавати, вилучати елементи з масиву
+
+        Приклади масивів:
+        let arr = [1,2,3,4,5]</h1>
+
+        <div class="container">
+            <div class="container-item item1">Назва методу <div class="h2">Length</div></div>
+            <div class="container-item item2">Що робить метод?<div class="h2">Нічого</div></div>
+            <div class="container-item item3">Що повертає?<div class="h2">Повертає довжину масиву</div></div>
+            <div class="container-item item4">Які параметри має?<div class="h2">Немає параметрів і дужок</div></div>
+        </div>
+
+        <div class="js-example">
+            <div class="code">
+                let arr = [1,2,3,4,5] <br>
+                arr.length
+            </div>
+            <div class="execute"></div>
+        </div>
+
+        <div class="container">
+            <div class="container-item item1">Назва методу <div class="h2">toString ()</div></div>
+            <div class="container-item item2">Що робить метод?<div class="h2">Дозволяє зробити об'єкти більш зрозумілими та інформативними</div></div>
+            <div class="container-item item3">Що повертає?<div class="h2">Повертає значення типу String, яке представляє об'єкт у текстовій формі</div></div>
+            <div class="container-item item4">Які параметри має?<div class="h2">Не приймає жодних параметрів</div></div>
+        </div>
+
+        <div class="js-example">
+            <div class="code">
+                let arr = [1,2,3,4,5] <br>
+                arr.toString()
+            </div>
+            <div class="execute"></div>
+        </div>
+
+        <div class="container">
+            <div class="container-item item1">Назва методу <div class="h2">join ()</div></div>
+            <div class="container-item item2">Що робить метод?<div class="h2">З'єднує елементи масиву або колекції в єдиний рядок, вставляючи між ними роздільник</div></div>
+            <div class="container-item item3">Що повертає?<div class="h2">Повертає об'єкт типу String, що містить об'єднані елементи з вказаним роздільником між ними</div></div>
+            <div class="container-item item4">Які параметри має?<div class="h2">delimiter — роздільник, який буде додано між кожним елементом.
+                
+                elements — масив елементів типу CharSequence</div></div>
+        </div>
+
+        <div class="js-example">
+            <div class="code">
+                let arr = [1,2,3,4,5] <br>
+                arr.join()
+            </div>
+            <div class="execute"></div>
+        </div>
+
+        <div class="container">
+            <div class="container-item item1">Назва методу <div class="h2">pop ()</div></div>
+            <div class="container-item item2">Що робить метод?<div class="h2">Вилучає з масиву останній елемент</div></div>
+            <div class="container-item item3">Що повертає?<div class="h2">Повертає індекс вилученого елементу</div></div>
+            <div class="container-item item4">Які параметри має?<div class="h2">Не має параметрів</div></div>
+        </div>
+
+        <div class="js-example">
+            <div class="code">
+                let arr = [1,2,3,4,5] <br>
+                arr.pop()
+            </div>
+            <div class="execute"></div>
+        </div>
+
+        <div class="container">
+            <div class="container-item item1">Назва методу <div class="h2">push ()</div></div>
+            <div class="container-item item2">Що робить метод?<div class="h2">Додає елемент в кінець масиву</div></div>
+            <div class="container-item item3">Що повертає?<div class="h2">Повертає довжину нового масиву</div></div>
+            <div class="container-item item4">Які параметри має?<div class="h2">Не має параметрів</div></div>
+        </div>
+
+        <div class="js-example">
+            <div class="code">
+                let arr = [1,2,3,4,5] <br>
+                arr.push ()
+            </div>
+            <div class="execute"></div>
+        </div>
+
+        <div class="container">
+            <div class="container-item item1">Назва методу <div class="h2">shift ()</div></div>
+            <div class="container-item item2">Що робить метод?<div class="h2">Вилучає з масиву перший елемент
+            </div></div>
+            <div class="container-item item3">Що повертає?<div class="h2">Повертає індекс вилученого елементу</div></div>
+            <div class="container-item item4">Які параметри має?<div class="h2">Не має параметрів</div></div>
+        </div>
+
+        <div class="js-example">
+            <div class="code">
+                let arr = [1,2,3,4,5] <br>
+                arr.shift ()
+            </div>
+            <div class="execute"></div>
+        </div>
+
+        <div class="container">
+            <div class="container-item item1">Назва методу <div class="h2">unshift ()</div></div>
+            <div class="container-item item2">Що робить метод?<div class="h2">Вставляє вказані елементи на початок масиву
+            </div></div>
+            <div class="container-item item3">Що повертає?<div class="h2">Повертає довжину нового масиву</div></div>
+            <div class="container-item item4">Які параметри має?<div class="h2">value, start, end</div></div>
+        </div>
+
+        <div class="js-example">
+            <div class="code">
+                let arr = [1,2,3,4,5] <br>
+                arr.unshift ()
+            </div>
+            <div class="execute"></div>
+        </div>
+
+        <div class="container">
+            <div class="container-item item1">Назва методу <div class="h2">splice ()</div></div>
+            <div class="container-item item2">Що робить метод?<div class="h2">Видаляє елементи з масиву, додає нові елементи у вказане місце, замінює певні елементи новими
+            </div></div>
+            <div class="container-item item3">Що повертає?<div class="h2">Повертає масив, що містить видалені елементи. Якщо нічого не видалено, повертає порожній масив</div></div>
+            <div class="container-item item4">Які параметри має?<div class="h2">start, deleteCount (необов'язковий), item1, item2, ..., itemN (необов'язкові)</div></div>
+        </div>
+
+        <div class="js-example">
+            <div class="code">
+                let arr = [1,2,3,4,5] <br>
+                arr.splice ()
+            </div>
+            <div class="execute"></div>
+        </div>
+
+        <div class="container">
+            <div class="container-item item1">Назва методу <div class="h2">concat ()</div></div>
+            <div class="container-item item2">Що робить метод?<div class="h2">Обʼєднує два або більше масивів або додавання елементів до масиву, створюючи новий масив із поєднанням всіх значень
+            </div></div>
+            <div class="container-item item3">Що повертає?<div class="h2">Повертає новий масив, що складається з елементів вихідного масиву, а також із доданих значень</div></div>
+            <div class="container-item item4">Які параметри має?<div class="h2">value1, value2, ..., valueN</div></div>
+        </div>
+
+        <div class="js-example">
+            <div class="code">
+                let arr = [1,2,3,4,5] <br>
+                arr.concat ()
+            </div>
+            <div class="execute"></div>
+        </div>
+
+        <div class="container">
+            <div class="container-item item1">Назва методу <div class="h2">slice ()</div></div>
+            <div class="container-item item2">Що робить метод?<div class="h2">Копіює частину масиву, визначену початковим і кінцевим індексами, у новий масив
+            </div></div>
+            <div class="container-item item3">Що повертає?<div class="h2">Повертає новий масив, який містить елементи, скопійовані з вказаного діапазону оригінального масиву</div></div>
+            <div class="container-item item4">Які параметри має?<div class="h2">begin, end</div></div>
+        </div>
+
+        <div class="js-example">
+            <div class="code">
+                let arr = [1,2,3,4,5] <br>
+                arr.slice ()
+            </div>
+            <div class="execute"></div>
+        </div>
+
+        <div class="container">
+            <div class="container-item item1">Назва методу <div class="h2">sort ()</div></div>
+            <div class="container-item item2">Що робить метод?<div class="h2">Сортує елементи масиву в місці, тобто змінює початковий масив
+            </div></div>
+            <div class="container-item item3">Що повертає?<div class="h2">Повертає відсортований масив (той же масив, на якому викликано метод)</div></div>
+            <div class="container-item item4">Які параметри має?<div class="h2">compareFunction (необов'язковий) — функція порівняння, яка визначає порядок сортування</div></div>
+        </div>
+
+        <div class="js-example">
+            <div class="code">
+                let arr = [1,2,3,4,5] <br>
+                arr.sort ()
+            </div>
+            <div class="execute"></div>
+        </div>
+
+        <div class="container">
+            <div class="container-item item1">Назва методу <div class="h2">reverse ()</div></div>
+            <div class="container-item item2">Що робить метод?<div class="h2">Перевертає порядок елементів у масиві: перший елемент стає останнім, другий — передостаннім
+            </div></div>
+            <div class="container-item item3">Що повертає?<div class="h2">Повертає відсортований у зворотному порядку масив (той самий масив, на якому викликано метод)</div></div>
+            <div class="container-item item4">Які параметри має?<div class="h2">Не має параметрів</div></div>
+        </div>
+
+        <div class="js-example">
+            <div class="code">
+                let arr = [1,2,3,4,5] <br>
+                arr.reserve ()
+            </div>
+            <div class="execute"></div>
+        </div>
+
+        <div class="container">
+            <div class="container-item item1">Назва методу <div class="h2">random ()</div></div>
+            <div class="container-item item2">Що робить метод?<div class="h2">Генерує випадкове число з плаваючою комою у діапазоні від 0 (включно) до 1 (виключно)
+            </div></div>
+            <div class="container-item item3">Що повертає?<div class="h2">Повертає випадкове число з плаваючою комою у діапазоні від 0 (включно) до 1 (виключно)</div></div>
+            <div class="container-item item4">Які параметри має?<div class="h2">Не має параметрів</div></div>
+        </div>
+
+        <div class="js-example">
+            <div class="code">
+                let arr = [1,2,3,4,5] <br>
+                arr.random ()
+            </div>
+            <div class="execute"></div>
+        </div>
+
+        <div class="container">
+            <div class="container-item item1">Назва методу <div class="h2">copyWithin ()</div></div>
+            <div class="container-item item2">Що робить метод?<div class="h2">Копіює частину масиву, визначену діапазоном індексів, і вставляє її на іншу позицію в межах того ж масиву
+            </div></div>
+            <div class="container-item item3">Що повертає?<div class="h2">Повертає модифікований масив (той самий масив, на якому викликано метод), зі зміненим порядком елементів</div></div>
+            <div class="container-item item4">Які параметри має?<div class="h2">target, start, end</div></div>
+        </div>
+
+        <div class="js-example">
+            <div class="code">
+                let arr = [1,2,3,4,5] <br>
+                arr.copyWithin ()
+            </div>
+            <div class="execute"></div>
+        </div>
+
+        <div class="container">
+            <div class="container-item item1">Назва методу <div class="h2">every ()</div></div>
+            <div class="container-item item2">Що робить метод?<div class="h2">Перевіряє, чи всі елементи масиву проходять перевірку, яку визначає функція зворотного виклику
+            </div></div>
+            <div class="container-item item3">Що повертає?<div class="h2">Повертає true, якщо всі елементи масиву проходять перевірку функції зворотного виклику.
+                false, якщо принаймні один з елементів не проходить перевірку.</div></div>
+            <div class="container-item item4">Які параметри має?<div class="h2">target, element, index, array, thisArg (необов'язковий)</div></div>
+        </div>
+
+        <div class="js-example">
+            <div class="code">
+                let arr = [1,2,3,4,5] <br>
+                arr.every ()
+            </div>
+            <div class="execute"></div>
+        </div>
+
+        <div class="container">
+            <div class="container-item item1">Назва методу <div class="h2">fill ()</div></div>
+            <div class="container-item item2">Що робить метод?<div class="h2">Заповнює масив значенням, яке ви вказали
+            </div></div>
+            <div class="container-item item3">Що повертає?<div class="h2">Повертає модифікований масив (той самий масив, на якому викликано метод), зі зміненими значеннями</div></div>
+            <div class="container-item item4">Які параметри має?<div class="h2">value, start, end</div></div>
+        </div>
+
+        <div class="js-example">
+            <div class="code">
+                let arr = [1,2,3,4,5] <br>
+                arr.fill ()
+            </div>
+            <div class="execute"></div>
+        </div>
+
+        <div class="container">
+            <div class="container-item item1">Назва методу <div class="h2">filter ()</div></div>
+            <div class="container-item item2">Що робить метод?<div class="h2">Перебирає елементи масиву і перевіряє їх на відповідність умові, що задається функцією зворотного виклику
+            </div></div>
+            <div class="container-item item3">Що повертає?<div class="h2">Повертає новий масив, що містить елементи, які відповідають умові, заданій у функції зворотного виклику</div></div>
+            <div class="container-item item4">Які параметри має?<div class="h2">callback, element, index, array, thisArg</div></div>
+        </div>
+
+        <div class="js-example">
+            <div class="code">
+                let arr = [1,2,3,4,5] <br>
+                arr.filter ()
+            </div>
+            <div class="execute"></div>
+        </div>
+
+        <div class="container">
+            <div class="container-item item1">Назва методу <div class="h2">find ()</div></div>
+            <div class="container-item item2">Що робить метод?<div class="h2">Перебирає елементи масиву і застосовує функцію зворотного виклику до кожного елемента
+            </div></div>
+            <div class="container-item item3">Що повертає?<div class="h2">Повертає Перший елемент, який задовольняє умову, задану у функції зворотного виклику.
+                undefined, якщо жоден елемент не відповідає умові</div></div>
+            <div class="container-item item4">Які параметри має?<div class="h2">callback, element, index, array, thisArg</div></div>
+        </div>
+
+        <div class="js-example">
+            <div class="code">
+                let arr = [1,2,3,4,5] <br>
+                arr.find ()
+            </div>
+            <div class="execute"></div>
+        </div>
+
+        <div class="container">
+            <div class="container-item item1">Назва методу <div class="h2">findIndex ()</div></div>
+            <div class="container-item item2">Що робить метод?<div class="h2">Перебирає елементи масиву і застосовує до кожного з них функцію зворотного виклику, щоб перевірити, чи відповідає елемент умові
+            </div></div>
+            <div class="container-item item3">Що повертає?<div class="h2">Повертає індекс першого елемента, який відповідає умові.
+                -1, якщо жоден елемент не задовольняє умову</div></div>
+            <div class="container-item item4">Які параметри має?<div class="h2">callback, element, index, array, thisArg</div></div>
+        </div>
+
+        <div class="js-example">
+            <div class="code">
+                let arr = [1,2,3,4,5] <br>
+                arr.findIndex ()
+            </div>
+            <div class="execute"></div>
+        </div>
+
+
+
+
+        <div class="container">
+            <div class="container-item item1">Назва методу <div class="h2"> forEach ()</div></div>
+            <div class="container-item item2">Що робить метод?<div class="h2">Виконує побічні ефекти (наприклад, модифікація зовнішніх змінних або виведення результатів)
+            </div></div>
+            <div class="container-item item3">Що повертає?<div class="h2">Не повертає значення. Він завжди повертає undefined</div></div>
+            <div class="container-item item4">Які параметри має?<div class="h2">callback (обов'язковий), thisArg (необов'язковий)</div></div>
+        </div>
+
+        <div class="js-example">
+            <div class="code">
+                let arr = [1,2,3,4,5] <br>
+                arr.forEach ()
+            </div>
+            <div class="execute"></div>
+        </div>
+
+        <div class="container">
+            <div class="container-item item1">Назва методу <div class="h2"> indexOf ()</div></div>
+            <div class="container-item item2">Що робить метод?<div class="h2">Повертає індекс першого входження елемента в масив або рядок
+            </div></div>
+            <div class="container-item item3">Що повертає?<div class="h2">Повертає індекс першого входження елемента в масив або рядок</div></div>
+            <div class="container-item item4">Які параметри має?<div class="h2"></div></div>
+        </div>
+
+        <div class="js-example">
+            <div class="code">
+                let arr = [1,2,3,4,5] <br>
+                arr.indexOf ()
+            </div>
+            <div class="execute"></div>
+        </div>
+
+        <div class="container">
+            <div class="container-item item1">Назва методу <div class="h2"> isArray ()</div></div>
+            <div class="container-item item2">Що робить метод?<div class="h2">Метод дозволяє точно перевірити, чи є дане значення масивом
+            </div></div>
+            <div class="container-item item3">Що повертає?<div class="h2">Повертає true, якщо це масив, і false в іншому випадку</div></div>
+            <div class="container-item item4">Які параметри має?<div class="h2">value: значення, яке потрібно перевірити</div></div>
+        </div>
+
+        <div class="js-example">
+            <div class="code">
+                let arr = [1,2,3,4,5] <br>
+                arr.isArray ()
+            </div>
+            <div class="execute"></div>
+        </div>
+
+        <div class="container">
+            <div class="container-item item1">Назва методу <div class="h2"> lastIndexOf ()</div></div>
+            <div class="container-item item2">Що робить метод?<div class="h2">Перевіряє чи є значення масивом
+            </div></div>
+            <div class="container-item item3">Що повертає?<div class="h2">Повертає true, якщо передане значення є масивом.
+                false, якщо передане значення не є масивом</div></div>
+            <div class="container-item item4">Які параметри має?<div class="h2">value</div></div>
+        </div>
+
+        <div class="js-example">
+            <div class="code">
+                let arr = [1,2,3,4,5] <br>
+                arr.lastIndexOf ()
+            </div>
+            <div class="execute"></div>
+        </div>
+
+        <div class="container">
+            <div class="container-item item1">Назва методу <div class="h2"> reduceRight ()</div></div>
+            <div class="container-item item2">Що робить метод?<div class="h2">Виконує зворотний обхід масиву (починаючи з останнього елемента і рухаючись до першого)
+            </div></div>
+            <div class="container-item item3">Що повертає?<div class="h2">Повертає одне значення — результат обробки всіх елементів масиву, яке накопичується через функцію зворотного виклику callback</div></div>
+            <div class="container-item item4">Які параметри має?<div class="h2">callback (обов'язковий), initialValue (необов'язковий)</div></div>
+        </div>
+
+        <div class="js-example">
+            <div class="code">
+                let arr = [1,2,3,4,5] <br>
+                arr.reduceRight ()
+            </div>
+            <div class="execute"></div>
+        </div>
+
+        <div class="container">
+            <div class="container-item item1">Назва методу <div class="h2"> reverse ()</div></div>
+            <div class="container-item item2">Що робить метод?<div class="h2">Змінює порядок елементів масиву на зворотний, тобто перший елемент стає останнім, другий — передостаннім
+            </div></div>
+            <div class="container-item item3">Що повертає?<div class="h2">Повертає сам масив, але вже з елементами у зворотному порядку</div></div>
+            <div class="container-item item4">Які параметри має?<div class="h2">Не має параметрів</div></div>
+        </div>
+
+        <div class="js-example">
+            <div class="code">
+                let arr = [1,2,3,4,5] <br>
+                arr.reverse ()
+            </div>
+            <div class="execute"></div>
+        </div>
+
+        <div class="container">
+            <div class="container-item item1">Назва методу <div class="h2"> some ()</div></div>
+            <div class="container-item item2">Що робить метод?<div class="h2">Перевіряє, чи хоча б один елемент масиву задовольняє умові, визначеній у функції зворотного виклику
+            </div></div>
+            <div class="container-item item3">Що повертає?<div class="h2">Повертає true, якщо хоча б один елемент масиву задовольняє умові (якщо функція зворотного виклику для хоча б одного елемента повертає true).
+                false, якщо жоден елемент не задовольняє умові (якщо для всіх елементів функція зворотного виклику повертає false)</div></div>
+            <div class="container-item item4">Які параметри має?<div class="h2">callback (обов'язковий), thisArg (необов'язковий)</div></div>
+        </div>
+
+        <div class="js-example">
+            <div class="code">
+                let arr = [1,2,3,4,5] <br>
+                arr.some ()
+            </div>
+            <div class="execute"></div>
+        </div>
+
+        <div class="container">
+            <div class="container-item item1">Назва методу <div class="h2"> valueOf ()</div></div>
+            <div class="container-item item2">Що робить метод?<div class="h2">Метод є вбудованим методом об'єктів, який використовується для отримання примітивного значення об'єкта
+            </div></div>
+            <div class="container-item item3">Що повертає?<div class="h2">Повертає примітивне значення, яке відповідає об'єкту. Як саме визначається це значення, залежить від типу об'єкта</div></div>
+            <div class="container-item item4">Які параметри має?<div class="h2">Не має параметрів</div></div>
+        </div>
+
+        <div class="js-example">
+            <div class="code">
+                let arr = [1,2,3,4,5] <br>
+                arr.valueOf ()
+            </div>
+            <div class="execute"></div>
+        </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
